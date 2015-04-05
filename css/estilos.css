@@ -1,0 +1,98 @@
+/*Estilos y ccs de <nav>*/
+body{
+    background: lightgray;
+    margin: 0px;
+    width: 320px;
+}
+nav.Canvas{
+    width: 100%;
+    position: fixed;
+    z-index: 6;
+    left: 0px;
+    right:0px;
+    top: 0px;
+}
+    header.Header{
+        background: #00ba89;
+        color: white;
+        height: 30px;
+        line-height: 30px;
+        padding: 10px 0px;
+        position: relative;
+    }
+    div.Header-logo{
+        margin: 0px;
+        top: 0px;
+        width: 200px;
+    }
+        img.Header-image{
+            display: block;
+            left: 5px;
+            margin: 0px;
+            position: absolute;
+            top: 2px;
+            z-index: 10px;
+            width: 40px;
+        }
+        p.Header-text{
+            display: block;
+            font-size: 30px;
+            left: 60px;
+            line-height: 40px;
+            margin: 0px;
+            position: absolute;
+            text-shadow:0px 0px 10px lightgreen;
+            top: 6px;
+        }
+        button.Header-button{
+            background: #00ba89;
+            border: none;
+            color: white;
+            display: none;
+            font-size: 30px;
+            font-weight: normal;
+            padding: 0px;
+            position: absolute;
+            right: 5px;
+            top: 10px;
+        }
+            .Header-button.is-active{
+                display: block;
+            }
+        ul.Menu{
+            display: visible;
+            background: #00ba89;
+            height: auto;
+            left: -200px;
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            position: absolute;
+            position: fixed;
+            top: 50px;
+            -webkit-transition:.2s;
+            width: 200px;
+        }
+            .Menu.is-active{
+                left: 0px;
+            }
+            .Menu-item{
+                -webkit-transition:.2s;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                text-shadow:0px 0px 10px #00ba89;
+            }
+                .Menu-item.Link{
+                    color: white;
+                    display: block;
+                    font-size: 14px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+
+        
+    
+
+
+                
